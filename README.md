@@ -1,11 +1,9 @@
 Download Apache Kafka- https://kafka.apache.org/documentation/#quickstart
 - Get Started - QuickStart - Download tar file and follow instructions to start in localhost:9092
-
-For mac - .sh files to run in Terminal
-For Windows - .bat files in bin/windows to run in cmd
-
-Download Java 17+
-In cmd, check java -version - it should be 17 or higher
+- For mac - .sh files to run in Terminal
+- For Windows - .bat files in bin/windows to run in cmd
+- Download Java 17+
+- In cmd, check java -version - it should be 17 or higher
 
 1.Change Logs Directory Path in kafka-config-server.properties,
 From log.dirs=/tmp/kraft-combined-logs 
