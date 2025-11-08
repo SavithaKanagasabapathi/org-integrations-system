@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: org-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SavithaKanagasabapathi/org-config-repo
+          default-label: main
+          searchPaths: '{application}'
+
+server:
+  port: 8888
